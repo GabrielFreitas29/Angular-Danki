@@ -11,6 +11,7 @@ export class SchoolsComponent {
 
   aceitaNovaEscola = false;  
   createdSchoolStatus = "Nenhuma escola criada";
+  schoolName = "";
 
   ngOnInit(): void{
     setTimeout(() => {
@@ -20,6 +21,10 @@ export class SchoolsComponent {
 
   createSchool(){
     this.createdSchoolStatus = "Escola criada!"
+  }
+
+  updateSchoolname(event: Event){
+    this.schoolName = (<HTMLInputElement>event.target).value
   }
 
   }
