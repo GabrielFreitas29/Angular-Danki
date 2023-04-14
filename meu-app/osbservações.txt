@@ -3,3 +3,5 @@ Arquivo package.json - armazena as dependências da aplicação.
 Pasta node_modules - Local onde estão estaladas todas as dependências.
 
 Pasta src - Onde ficará todo o código
+
+COMANDO BROKEN - ng generate component NomeDoComponent
