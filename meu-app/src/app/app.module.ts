@@ -4,6 +4,7 @@ import { SchoolComponent } from './school/school.component';
 
 import { AppComponent } from './app.component';
 import { SchoolsComponent } from './schools/schools.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SchoolsComponent } from './schools/schools.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

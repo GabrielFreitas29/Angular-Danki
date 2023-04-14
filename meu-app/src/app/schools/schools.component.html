@@ -1,5 +1,8 @@
 <label for="Nome da Escola"></label>
-<input type="text" class="form-control" (input)="updateSchoolname($event)">
+
+<!-- <input type="text" class="form-control" (input)="updateSchoolname($event)"> -->
+
+<input type="text" class="form-control" [(ngModel)]="schoolName">
 <p>{{ schoolName }}</p>
 <button 
     class="btn btn-primary" 

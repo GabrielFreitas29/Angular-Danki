@@ -11,7 +11,7 @@ export class SchoolsComponent {
 
   aceitaNovaEscola = false;  
   createdSchoolStatus = "Nenhuma escola criada";
-  schoolName = "";
+  schoolName = "Nome de teste da escola";
 
   ngOnInit(): void{
     setTimeout(() => {
