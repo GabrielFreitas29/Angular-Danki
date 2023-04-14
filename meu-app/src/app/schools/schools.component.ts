@@ -10,10 +10,16 @@ import { Component } from '@angular/core';
 export class SchoolsComponent {
 
   aceitaNovaEscola = false;  
+  createdSchoolStatus = "Nenhuma escola criada";
 
   ngOnInit(): void{
     setTimeout(() => {
       this.aceitaNovaEscola = true;
     }, 3000);
   }
+
+  createSchool(){
+    this.createdSchoolStatus = "Escola criada!"
+  }
+
   }
