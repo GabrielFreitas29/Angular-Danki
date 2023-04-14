@@ -5,5 +5,6 @@ import { Component } from "@angular/core";
     templateUrl: './school.component.html'
 })
 export class SchoolComponent{
-
+    idEscola = 10;
+    nomeEscola = 'Senac';
 }
